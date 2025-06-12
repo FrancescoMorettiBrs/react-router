@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 
 const AppHeader = () => {
-  const navLinks = () => [
+  const navLinks = [
     {
       title: "Home",
       url: "/",
