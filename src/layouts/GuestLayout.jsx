@@ -5,7 +5,9 @@ const GuestLayout = () => {
   return (
     <>
       <AppHeader />
-      <Outlet />
+      <section>
+        <Outlet />
+      </section>
     </>
   );
 };

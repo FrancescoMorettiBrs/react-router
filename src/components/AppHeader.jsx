@@ -16,6 +16,7 @@ const AppHeader = () => {
     },
   ];
 
+  return (
   <header>
     <nav>
       <ul className="d-flex justify-content-center">
@@ -26,7 +27,8 @@ const AppHeader = () => {
         ))}
       </ul>
     </nav>
-  </header>;
+  </header>
+  );
 };
 
 export default AppHeader;
