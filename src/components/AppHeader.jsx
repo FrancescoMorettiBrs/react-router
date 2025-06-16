@@ -14,6 +14,10 @@ const AppHeader = () => {
       title: "Lista dei Post",
       url: "/lista-post",
     },
+    {
+      title: "Crea il tuo Post",
+      url: "/crea-post",
+    }
   ];
 
   return (
